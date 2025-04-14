@@ -24,12 +24,12 @@ export default function About() {
           const aboutText = document.getElementById("about-text");
           aboutText?.scrollIntoView({ behavior: "smooth" });
         }}
-        className="absolute top-2 left-2 z-50  border-black rounded-full"
+        className="absolute top-2 left-2 z-50 rounded-full"
       >
         <motion.img
           src="/src/assets/Profile.jpg"
           alt="Profile"
-          className="w-40 h-40 rounded-full object-cover shadow-lg"
+          className="w-40 h-40 rounded-full object-cover shadow-lg border-black"
           initial={{ scale: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -155,7 +155,7 @@ Let’s connect and collaborate!`}
                 href="/src/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-white text-white bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-800 hover:text-gray-100 transition text-4xl font-bold"
+                className="border border-white text-white bg-[#2563eb] px-4 py-2 rounded-full hover:bg-[#1d4ed8] hover:text-gray-100 transition text-4xl font-bold"
                 style={{
                   scale,
                 }}
