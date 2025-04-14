@@ -19,10 +19,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <div
-      id="projects"
-      className="bg-gradient-to-b from-black via-black/70 to-transparent py-8"
-    >
+    <div id="projects" className="bg-gradient-to-b from-black to-white py-8">
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
       ))}

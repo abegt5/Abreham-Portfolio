@@ -1,5 +1,1 @@
 @import "tailwindcss";
-@font-face {
-  font-family: "StarJedi";
-  src: url("/assets/StarJedi.ttf") format("truetype");
-}
