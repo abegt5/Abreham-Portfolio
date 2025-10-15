@@ -47,7 +47,7 @@ export default function About() {
         <motion.div
           id="about-text"
           initial={{ y: 0, opacity: 1, scale: 0.5 }}
-          animate={{ y: -200, opacity: 1, scale: 1 }}
+          animate={{ y: -200, opacity: 1, scale: 1.5 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={{
             transformOrigin: "center bottom",
