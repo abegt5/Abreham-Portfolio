@@ -61,7 +61,6 @@ export default function About() {
             <h1 className="text-2xl font-bold mb-2">About Me</h1>
             {`Hello! I’m Abreham Tegegne, a first-generation Ethiopian and senior at the University of Washington majoring in Computer Science.
 
-
 As a passionate software engineer, I have gained hands-on experience in various aspects of software development through two internships at TIAA, where I had the opportunity to work on impactful projects—optimizing APIs with Java Spring Boot and building AI-driven tools that saved teams over 120 hours of manual work.
 
 I’m actively seeking new graduate software engineering roles where I can contribute to innovative tech solutions and continue growing in my career. I’m particularly passionate about creating user-focused, scalable applications that make a difference—whether that’s building full-stack apps or enhancing accessibility.
