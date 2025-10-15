@@ -58,7 +58,7 @@ export default function About() {
         >
           <div className="typing-animation whitespace-pre-line">
             <h1 className="text-2xl font-bold mb-2">About Me</h1>
-            {`Hey! I'm Abreham Tegegne, a first-generation Ethiopian and a senior at the University of Washington, graduating in June 2025 with a B.S. in Computer Science.
+            {`Hi! I’m Abreham Tegegne, a first-generation Ethiopian and senior at the University of Washington majoring in Computer Science.
 
 As a passionate software engineer, I have gained hands-on experience in various aspects of software development through two internships at TIAA, where I had the opportunity to work on impactful projects—optimizing APIs with Java Spring Boot and building AI-driven tools that saved teams over 120 hours of manual work.
 
