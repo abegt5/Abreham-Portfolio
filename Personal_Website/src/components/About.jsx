@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
+import ProfileImg from "../assets/Profile.jpg"; // ✅ correct
 
 export default function About() {
   const ref = useRef();
@@ -27,7 +28,7 @@ export default function About() {
         className="absolute top-2 left-2 z-50 rounded-full"
       >
         <motion.img
-          src="/src/assets/Profile.jpg"
+          src={ProfileImg}
           alt="Profile"
           className="w-40 h-40 rounded-full object-cover shadow-lg border-black"
           initial={{ scale: 1 }}
@@ -58,7 +59,8 @@ export default function About() {
         >
           <div className="typing-animation whitespace-pre-line">
             <h1 className="text-2xl font-bold mb-2">About Me</h1>
-            {`Hey! I'm Abreham Tegegne, a first-generation Ethiopian and a senior at the University of Washington, graduating in June 2025 with a B.S. in Computer Science.
+            {`Hello! I’m Abreham Tegegne, a first-generation Ethiopian and senior at the University of Washington majoring in Computer Science.
+
 
 As a passionate software engineer, I have gained hands-on experience in various aspects of software development through two internships at TIAA, where I had the opportunity to work on impactful projects—optimizing APIs with Java Spring Boot and building AI-driven tools that saved teams over 120 hours of manual work.
 

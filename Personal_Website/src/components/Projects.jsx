@@ -1,18 +1,19 @@
 import ProjectCard from "./ProjectCard";
-
+import FormFlow from "../assets/FormFlowAI.png";
+import MyBuild from "../assets/MyBuild.png";
 const projects = [
   {
     title: "MyBuild",
     description:
       "A mobile app for car enthusiasts to share builds, find parts, and discover local events. Built with React Native, Firebase, and Cloudinary.",
-    imageSrc: "/src/assets/MyBuild.png",
+    imageSrc: MyBuild,
     githubUrl: "https://github.com/abegt5/MyBuild",
   },
   {
     title: "FormFlowAI",
     description:
       "An AI-powered web app for document translation and summarization. Features TTS, text zooming, and multilingual support.",
-    imageSrc: "/src/assets/FormFlowAI.png",
+    imageSrc: FormFlow,
     githubUrl: "https://github.com/yourusername/formflowai",
   },
 ];

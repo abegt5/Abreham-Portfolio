@@ -36,7 +36,7 @@ export default function ProjectCard({
       <div className="flex flex-col md:flex-row items-center justify-center w-5/6 bg-white rounded-xl shadow-lg p-6 space-y-6 md:space-y-0 md:space-x-6">
         {/* Image */}
         <img
-          src={imageSrc}
+          src={imageSrc} // Use the imported imageSrc
           alt={title}
           className="w-57 h-57 rounded-xl object-cover shadow-md"
         />
