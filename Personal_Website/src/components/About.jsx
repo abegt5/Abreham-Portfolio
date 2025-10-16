@@ -61,11 +61,13 @@ export default function About() {
             <h1 className="text-2xl font-bold mb-2">About Me</h1>
             {`Hello! I’m Abreham Tegegne, a first-generation Ethiopian and senior at the University of Washington majoring in Computer Science.
 
-As a passionate software engineer, I have gained hands-on experience in various aspects of software development through two internships at TIAA, where I had the opportunity to work on impactful projects—optimizing APIs with Java Spring Boot and building AI-driven tools that saved teams over 120 hours of manual work.
+As a passionate software engineer, I have gained hands-on experience in various aspects of software development. I have worked two internships at TIAA, where I had the opportunity to work on impactful projects, including optimizing APIs with Java Spring Boot and building AI-driven tools that saved teams over 120 hours of manual work.
 
-I’m actively seeking new graduate software engineering roles where I can contribute to innovative tech solutions and continue growing in my career. I’m particularly passionate about creating user-focused, scalable applications that make a difference—whether that’s building full-stack apps or enhancing accessibility.
+Outside of internships, I’ve also been growing through personal projects. Right now, I’m working solo on a mobile application called MyBuild, a platform for car enthusiasts to share builds, find parts, and discover local events. I’m hoping to launch it on the App Store soon. It’s been a great way to apply what I’ve learned while solving real problems and building something I am proud of.
 
-In my free time, I enjoy playing basketball, working on my car, snowboarding, and mentoring middle schoolers in an after-school coding program. I'm constantly learning and exploring new technologies to improve my skills and stay on top of industry trends.
+I’m currently looking for new graduate software engineering roles where I can contribute to meaningful projects, learn from experienced teams, and continue to grow as a developer.
+
+When I am not coding, I enjoy spending time with my family outdoors in the Pacific Northwest, playing basketball, working on my car, or mentoring students in an after school coding program. I am always looking for ways to learn something new, whether it is through hands-on projects or keeping up with the constantly evolving world of technology.
 
 Let’s connect and collaborate!`}
           </div>
